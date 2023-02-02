@@ -1,0 +1,24 @@
+{% extends 'calculator/base.html' %}
+{% block content %}
+<div class="wrapper">
+    <input id="input" class="screen" type="text" disabled>
+    <div class="button_box">
+        {% for row in buttons %}
+            {% for btn in row %}
+                <button
+                    {% if btn == "=" %} 
+                        class="equals" 
+                    {% endif %} 
+                    onclick="clickButton('{{btn}}', '{% url 'calculate' %}', '{{csrf_token}}')"
+                    >
+                    {{btn}}
+                </button>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
+
+
+
+
