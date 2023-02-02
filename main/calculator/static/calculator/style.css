@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(61, 43, 184);
+    background-color: rgb(19, 12, 64);
 }
 
 .equals {
@@ -53,6 +53,6 @@ button:hover {
 }
 
 .equals:hover {
-    background-color: rgb(228, 39, 15);
+    background-color: rgb(228, 143, 15);
 }
 
