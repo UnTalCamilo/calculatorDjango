@@ -34,7 +34,7 @@
 
 button {
     border: none;
-    background-color: rgb(80, 60, 209);
+    background-color: rgb(80, 60, 208);
     font-size: 24px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -49,10 +49,10 @@ button:hover {
 
 .equals {
     grid-column: 3 / 5;
-    background-color: rgb(243, 61, 29);
+    background-color: rgb(243, 62, 29);
 }
 
 .equals:hover {
-    background-color: rgb(228, 143, 15);
+    background-color: rgb(228, 144, 15);
 }
 
